@@ -46,14 +46,18 @@
    1. 将测试集中**前视声呐**图片放置于 data/b-test-image/image/Forward_looking_sonar_image 目录下
    
    2. 将测试集中**侧扫声呐**图片放置于 data/b-test-image/image/Side_scan_sonar_image 目录下
+
+   3. 运行 python tools/data_process/generate_test_json.py 
    
-   3. 从百度网盘： 链接： https://pan.baidu.com/s/11ObvDssM8sWbCZJdbhkKXA  提取码：bk1d
+   4. 从百度网盘： 链接： https://pan.baidu.com/s/11ObvDssM8sWbCZJdbhkKXA  提取码：bk1d
    
    下载模型文件forward_epoch12.pth 和side_epoch12.pth 分别放置于：
    
    work_dirs/forward/cas_r101_dcn_fpn_1x_fixbn_vflip/forward_epoch_12.pth 
    
    work_dirs/side_all/cas_r101_dcn_fpn_1x_vflip/side_epoch_12.pth
+
+ 
   
 
    - **预测**
